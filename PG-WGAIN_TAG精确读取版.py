@@ -29,7 +29,7 @@ RUN_MODE = 'stage3'  # 默认只运行第三阶段
 # 【新增】第二阶段模型加载配置
 # None: 自动查找最新的预训练模型
 # 字符串: 指定具体的 .pth 文件路径，例如 'pg_wgain_best_20260520-184436.pth'
-STAGE2_PRETRAINED_MODEL_PATH = 'pg_wgain_best_20260524-160844.pth'  # 第二阶段加载的预训练模型文件
+STAGE2_PRETRAINED_MODEL_PATH = 'pg_wgain_best_20260602-161205.pth'  # 第二阶段加载的预训练模型文件
 
 # 【新增】第三阶段模型加载配置
 # None: 自动查找最新的微调或预训练模型
